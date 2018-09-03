@@ -1,4 +1,4 @@
-package com.example.clova;
+package com.example.clova_handson;
 
 import com.linecorp.clova.extension.boot.handler.annnotation.*;
 import com.linecorp.clova.extension.boot.message.response.CEKResponse;
@@ -36,11 +36,11 @@ public class EchoHandler {
   private String callbackShop(String inArea) {
     switch (inArea) {
       case "札幌":
-        return "おすすめは、アジャンタ札幌店です。";
+        return inArea + "のおすすめは、アジャンタ札幌店です。";
       case "千歳":
-        return "おすすめは、ラマイ千歳店です。";
+        return inArea + "のおすすめは、ラマイ千歳店です。";
       default:
-        return "ごめんなさい、わかりませんでした。";
+        return inArea + "のおすすめは、わかりませんでした。";
     }
   }
 

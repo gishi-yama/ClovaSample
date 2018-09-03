@@ -1,4 +1,4 @@
-package com.example.clova;
+package com.example.clova_handson;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
