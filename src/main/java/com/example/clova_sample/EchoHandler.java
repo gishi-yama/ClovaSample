@@ -1,4 +1,4 @@
-package com.example.clova_handson;
+package com.example.clova_sample;
 
 import com.linecorp.clova.extension.boot.handler.annnotation.*;
 import com.linecorp.clova.extension.boot.message.response.CEKResponse;
